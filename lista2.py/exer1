@@ -1,0 +1,2 @@
+a = str(input('digite seu primeiro nome:'))
+print(f'Bem-vindo ao Python, {a}')

@@ -1,0 +1,10 @@
+t = int(input())
+for i in range(1, t+1):
+  n = input().split()
+  n1 = int(n[0])
+  n2 = int(n[1])
+  if n2 == 0:
+    print('divisao impossivel')
+  else:
+    d = n1 / n2
+    print(f'{d:.1f}')

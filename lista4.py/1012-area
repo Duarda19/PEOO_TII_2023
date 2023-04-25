@@ -1,0 +1,18 @@
+valores = input().split()
+A = float(valores[0])
+B = float(valores[1])
+C = float(valores[2])
+
+pi = 3.14159
+
+area_do_triangulo = A * C / 2
+area_do_circulo = pi * C**2
+area_do_trapezio = (A + B) * C / 2
+area_do_quadrado = B**2
+area_do_retangulo = A * B
+
+print(f'TRIANGULO: {area_do_triangulo:.3f}')
+print(f'CIRCULO: {area_do_circulo:.3f}')
+print(f'TRAPEZIO: {area_do_trapezio:.3f}')
+print(f'QUADRADO: {area_do_quadrado:.3f}')
+print(f'RETANGULO: {area_do_retangulo:.3f}')

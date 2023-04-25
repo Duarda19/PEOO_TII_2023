@@ -1,0 +1,6 @@
+tempo = int(input())
+velocidade = int(input())
+
+a = velocidade * tempo
+b = a / 12
+print(f'{b:.3f}')

@@ -1,0 +1,9 @@
+b = float(input())
+h = float(input())
+area = b * h
+per = (b * 2) + (h * 2)
+d = (b**2) + (h**2)
+diag = d**0.5
+print(f'Área = {area:.2f}')
+print(f'Perímetro = {per:.2f}')
+print(f'Diagonal = {diag:.2f}')

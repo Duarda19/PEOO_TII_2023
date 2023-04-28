@@ -1,7 +1,7 @@
-def iniciais(a):
-  b = a[0]
-  print(b)
-a = str(input())
-iniciais(a)
-
-a terminar
+def iniciais(nome):
+  resultado = []
+  for palavra in nome:
+    resultado += palavra[0]
+  print(resultado)
+nome = str(input()).split()
+iniciais(nome)

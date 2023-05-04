@@ -1,0 +1,10 @@
+menor = 11111111111111111111111
+def menor(x,y):
+  if x < y:
+    menor = x
+  else:
+    menor = y
+  print(menor)
+x = int(input())
+y = int(input())
+menor(x,y)

@@ -1,0 +1,6 @@
+def diagonal(b,h):
+  d = ((b**2) + (h**2))**0.5
+  print(d)
+b = float(input())
+h = float(input())
+diagonal(b,h)

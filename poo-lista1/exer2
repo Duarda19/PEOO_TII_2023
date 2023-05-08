@@ -1,0 +1,18 @@
+mport math
+class poo:
+  def __init__(self,nome, n1, n2, n3, n4, nf):
+    self.nome = nome
+    self.n1 = n1
+    self.n2 = n2
+    self.n3 = n3
+    self.n4 = n4
+    self.nf = nf
+    self.media = ""
+  def calc_area(self):
+    self.media = (self.n1*2 + self.n2*2 + self.n3*3 + self.n4*3)/10
+    if self.media > 60:
+      self.media = (self.media + self.nf)/2
+    return self.media
+
+poo = disciplinas()
+print(poo, 30, 50,80,100)

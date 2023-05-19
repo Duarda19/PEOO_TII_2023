@@ -1,0 +1,8 @@
+class Velocidade:
+  def __init__(self):
+    self.km = int(input())
+    self.h = int(input())
+  def vm(self):
+    return self.km / self.h
+x = Velocidade()
+print(f'{x.vm():.0f}')
